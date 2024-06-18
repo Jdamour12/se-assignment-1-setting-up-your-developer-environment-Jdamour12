@@ -44,21 +44,21 @@ This assignment aims to familiarize you with the tools and configurations necess
 2.  Install a Text Editor or Integrated Development Environment (IDE):
     Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
-Documentation:
+    Documentation:
 
-The following are the process and steps of setting up the text editor(Visual Studio Code) but due to that I have already installed it, I will not be able to share the screenshots of that process:
+    The following are the process and steps of setting up the text editor(Visual Studio Code) but due to that I have already installed it, I will not be able to share the screenshots of that process:
 
-1.  Downloading Visual Studio Code through thefollowing link: https://code.visualstudio.com/Download
+    1.  Downloading Visual Studio Code through thefollowing link: https://code.visualstudio.com/Download
 
-2.  After the Visual studio Code was downloaded, I runned the Installer and during the istallation I chose Visual Studio workload.
+    2.  After the Visual studio Code was downloaded, I runned the Installer and during the istallation I chose Visual Studio workload.
 
-3.  Based on my requirements and desire, I chose some workloads and components like Web Development and others
+    3.  Based on my requirements and desire, I chose some workloads and components like Web Development and others
 
-4.  After that I clicked Intall button to start the installation.
+    4.  After that I clicked Intall button to start the installation.
 
-5.  Finaly, I launched Visual studio code and then modified few things like auto-save, colors, fonts, ... and then I started to code.
+    5.  Finaly, I launched Visual studio code and then modified few things like auto-save, colors, fonts, ... and then I started to code.
 
-6.  Set Up Version Control System:
+3.  Set Up Version Control System:
     Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
     Documentation:
@@ -70,7 +70,8 @@ The following are the process and steps of setting up the text editor(Visual Stu
 
     - Visited the official Git website: https://git-scm.com
     - Clicked on "Download" and choose Windows.
-      Install Git:
+
+    Install Git:
 
     Runned the downloaded installer and followed the installation wizard, leaving all options as default.
 
@@ -110,11 +111,11 @@ The following are the process and steps of setting up the text editor(Visual Stu
 
     Step 7: Link Local Repository to GitHub
 
-- Add the remote repository URL:
-  git remote add origin https://github.com/Jdamour12/E-Shopping.git
+    - Add the remote repository URL:
+      git remote add origin https://github.com/Jdamour12/E-Shopping.git
 
-- Push my changes to GitHub:
-  git push -u origin master
+    - Push my changes to GitHub:
+      git push -u origin master
 
 4.  Install Necessary Programming Languages and Runtimes:
     Install Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
@@ -138,19 +139,19 @@ The following are the process and steps of setting up the text editor(Visual Stu
 
     1. Pip Package Manager:
 
-Python comes with pip, the package installer. I ensured it's up to date by running: python -m pip install --upgrade pip
+    Python comes with pip, the package installer. I ensured it's up to date by running: python -m pip install --upgrade pip
 
-2.Install Project Dependencies:
+    2.Install Project Dependencies:
 
-If my project requires specific libraries, I will install them using pip. For example, if I need numpy and requests, I will run: pip install numpy requests
+    If my project requires specific libraries, I will install them using pip. For example, if I need numpy and requests, I will run: pip install numpy requests
 
-Step 3: Verify Tools to Build and Execute Code
+    Step 3: Verify Tools to Build and Execute Code
 
-1.  Check for Python:
+    1.  Check for Python:
 
-- I will open a terminal or command prompt and run: python; this should open the Python interactive shell, indicating that Python is installed correctly.
+    - I will open a terminal or command prompt and run: python; this should open the Python interactive shell, indicating that Python is installed correctly.
 
-2.  Install a Code Editor or IDE:
+    2.  Install a Code Editor or IDE:
 
     I will use Visual Studio Code as my code editor or IDE.
 
@@ -166,7 +167,7 @@ Step 3: Verify Tools to Build and Execute Code
 
        With the virtual environment activated, I will install the required libraries: pip install library-name requests
 
-3.  Install Package Managers:
+5.  Install Package Managers:
     If applicable, install package managers like pip (Python).
 
     Summary of Installing Package Managers
@@ -179,7 +180,7 @@ Step 3: Verify Tools to Build and Execute Code
 
     I verified that pip was installed and functioning by running: pip --version
 
-By following these steps, I successfully installed and verified the package managers necessary for my project's dependencies.
+    By following these steps, I successfully installed and verified the package managers necessary for my project's dependencies.
 
 6.  Configure a Database (MySQL):
     Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
@@ -204,62 +205,62 @@ By following these steps, I successfully installed and verified the package mana
 
        - I created a new database for my project using the following command: CREATE DATABASE my_project_db;
 
-By following these steps, I successfully installed, configured, and verified the MySQL database necessary for my project.
+    By following these steps, I successfully installed, configured, and verified the MySQL database necessary for my project.
 
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+7.  Set Up Development Environments and Virtualization (Optional):
+    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
-   Summary of Setting Up Development Environments and Virtualization
+    Summary of Setting Up Development Environments and Virtualization
 
-   1. Installed Docker:
+    1.  Installed Docker:
 
-   - Downloaded and installed Docker from the official site.
-   - Verified installation by running: docker --version
+    - Downloaded and installed Docker from the official site.
+    - Verified installation by running: docker --version
 
-   2. Configured Docker:
+    2.  Configured Docker:
 
-   - Set up a Dockerfile for my project to define the environment.
-   - Built and ran the Docker container: docker build -t my_project .
-     docker run -d -p 8000:8000 my_project
+    - Set up a Dockerfile for my project to define the environment.
+    - Built and ran the Docker container: docker build -t my_project .
+      docker run -d -p 8000:8000 my_project
 
-   3. Created a Virtual Machine (Optional):
+    3.  Created a Virtual Machine (Optional):
 
-   - Used VirtualBox to create and configure a VM for my project.
-   - Installed the necessary OS and dependencies inside the VM.
+    - Used VirtualBox to create and configure a VM for my project.
+    - Installed the necessary OS and dependencies inside the VM.
 
-By using Docker and VirtualBox, I ensured isolated and consistent development environments for my project.
+    By using Docker and VirtualBox, I ensured isolated and consistent development environments for my project.
 
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+8.  Explore Extensions and Plugins:
+    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
 
-   Summary of Exploring Extensions and Plugins
+    Summary of Exploring Extensions and Plugins
 
-   1. Installed Visual Studio Code:
+    1.  Installed Visual Studio Code:
 
-      Downloaded and installed Visual Studio Code (VS Code) from the official site.
+        Downloaded and installed Visual Studio Code (VS Code) from the official site.
 
-   2. Explored and Installed Extensions:
+    2.  Explored and Installed Extensions:
 
-      - Python Extension: For Python development, including syntax highlighting, debugging, and IntelliSense.
-      - ESLint: For linting JavaScript code to ensure code quality.
-      - Prettier: For code formatting to maintain consistent style.
-      - GitLens: To enhance Git capabilities and provide insights into version control.
+        - Python Extension: For Python development, including syntax highlighting, debugging, and IntelliSense.
+        - ESLint: For linting JavaScript code to ensure code quality.
+        - Prettier: For code formatting to maintain consistent style.
+        - GitLens: To enhance Git capabilities and provide insights into version control.
 
-   3. Configured Extensions:
+    3.  Configured Extensions:
 
-      Customized settings for each extension to fit my workflow and project requirements.
+        Customized settings for each extension to fit my workflow and project requirements.
 
-By exploring and installing these extensions, I enhanced the functionality of my text editor, improving productivity and code quality.
+    By exploring and installing these extensions, I enhanced the functionality of my text editor, improving productivity and code quality.
 
-9. Document Your Setup:
-   Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process.
+9.  Document Your Setup:
+    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process.
 
-   All of the steps I used in my whole setup have been documented above, including the configurations, customizations, and troubleshooting.
+    All of the steps I used in my whole setup have been documented above, including the configurations, customizations, and troubleshooting.
 
-   The following are my Github and Github repository:
+    The following are my Github and Github repository:
 
-   Github account: https://github.com/Jdamour12
-   Github repository: https://github.com/https://github.com/Jdamour12/E-Shopping.git
+    Github account: https://github.com/Jdamour12
+    Github repository: https://github.com/https://github.com/Jdamour12/E-Shopping.git
 
 #Deliverables:
 
